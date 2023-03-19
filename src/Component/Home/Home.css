@@ -1,0 +1,38 @@
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 66.4px);
+    gap: 1rem;
+    padding: 0 4rem;
+    background: linear-gradient(#04030e , #451413);
+    color: #fff;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.button{
+    background-color: #fff !important;
+    box-shadow: none !important;
+    text-transform: capitalize !important;
+    padding: 0.3 0rem !important;
+    width: 135px !important;
+    font-weight: bold !important;
+    background-color: #210916 !important;
+}
+
+@media only screen and (max-width: 650px){
+    p{
+        font-size: 17px;
+        text-align: justify;
+    }
+    .home button{
+        font-size: 14px;
+        margin-top: 1rem;
+    }
+ }

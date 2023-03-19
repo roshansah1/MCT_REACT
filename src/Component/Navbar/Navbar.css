@@ -1,0 +1,30 @@
+header{
+    background-color: #000;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-right: 4rem;
+    padding: 1.5rem;
+}
+
+.active{
+    color: rgb(5, 244, 5);
+ }
+
+ header a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 650px){
+     header ul{
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        font-size: medium;
+     }
+  }
