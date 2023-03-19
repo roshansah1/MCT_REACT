@@ -216,6 +216,11 @@ button{
       font-size: small;
       font-weight: bold;
     }
+    .login_extra{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
 
     .login_extra p{
       font-size: medium;
